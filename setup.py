@@ -32,7 +32,7 @@ class RunTests(Command):
         errno = call(['py.test'])
         raise SystemExit(errno)
 setup(
-    python_requires='>=3',
+    python_requires='>=3.10',
     name = 'gitlabber',
     packages = ['gitlabber'],
     version = __version__,
@@ -55,8 +55,6 @@ setup(
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',     
-        'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12'

@@ -6,3 +6,15 @@ build-backend = "flit_core.buildapi"
 name = "gitlabber"
 authors = [{name = "ezbz", email = "ezbz@github"}]
 dynamic = ["version", "description"]
+
+requires-python = ">=3.10"
+dependencies = [
+  "anytree>=2.13.0",
+  "GitPython>=3.2.1",
+  "python-gitlab>=8.6.0",
+  "globre>=0.1.5",
+  "PyYAML>=6.0.3",
+  "tqdm>=4.70.1",
+  "docopt>=0.6.2",
+  "urllib3>=2.8.0"
+]
